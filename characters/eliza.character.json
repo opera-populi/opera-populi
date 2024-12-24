@@ -1,10 +1,9 @@
 {
   "name": "Eliza",
   "plugins": [],
-  "clients": ["twitter"],
+  "clients": ["twitter", "discord"],
   "modelProvider": "openrouter",
   "settings": {
-    "secrets": {},
     "voice": {
       "model": "en_US-hfc_female-medium"
     }

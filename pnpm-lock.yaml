@@ -13,7 +13,7 @@ importers:
     dependencies:
       '@ai16z/adapter-postgres':
         specifier: v0.1.4-alpha.3
-        version: 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)
+        version: 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(vue@3.5.13(typescript@5.6.3))
       '@ai16z/adapter-sqlite':
         specifier: v0.1.4-alpha.3
         version: 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)
@@ -33,7 +33,7 @@ importers:
         specifier: v0.1.4-alpha.3
         version: 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)
       '@ai16z/eliza':
-        specifier: v0.1.4-alpha.3
+        specifier: 0.1.4-alpha.3
         version: 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)
       '@ai16z/plugin-bootstrap':
         specifier: v0.1.4-alpha.3
@@ -6108,7 +6108,7 @@ snapshots:
     transitivePeerDependencies:
       - zod
 
-  '@ai16z/adapter-postgres@0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)':
+  '@ai16z/adapter-postgres@0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(vue@3.5.13(typescript@5.6.3))':
     dependencies:
       '@ai16z/eliza': 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)
       '@types/pg': 8.11.10
@@ -6125,7 +6125,6 @@ snapshots:
       - '@langchain/mistralai'
       - '@langchain/ollama'
       - axios
-      - bufferutil
       - cheerio
       - encoding
       - handlebars
@@ -6137,9 +6136,7 @@ snapshots:
       - supports-color
       - svelte
       - typeorm
-      - utf-8-validate
       - vue
-      - whatwg-url
 
   '@ai16z/adapter-sqlite@0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)':
     dependencies:
@@ -6174,7 +6171,7 @@ snapshots:
       - utf-8-validate
       - vue
 
-  '@ai16z/adapter-sqljs@0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)':
+  '@ai16z/adapter-sqljs@0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)':
     dependencies:
       '@ai16z/eliza': 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)
       '@types/sql.js': 1.4.9
@@ -6193,7 +6190,6 @@ snapshots:
       - '@langchain/mistralai'
       - '@langchain/ollama'
       - axios
-      - bufferutil
       - cheerio
       - encoding
       - handlebars
@@ -6204,7 +6200,6 @@ snapshots:
       - supports-color
       - svelte
       - typeorm
-      - utf-8-validate
       - vue
 
   '@ai16z/adapter-supabase@0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)':
@@ -6479,7 +6474,7 @@ snapshots:
       '@ai-sdk/groq': 0.0.3(zod@3.23.8)
       '@ai-sdk/openai': 1.0.0-canary.3(zod@3.23.8)
       '@ai16z/adapter-sqlite': 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)
-      '@ai16z/adapter-sqljs': 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)
+      '@ai16z/adapter-sqljs': 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)
       '@ai16z/adapter-supabase': 0.1.4-alpha.3(@google-cloud/vertexai@1.9.0)(@langchain/core@0.3.20(openai@4.69.0(zod@3.23.8)))(axios@1.7.7)(bufferutil@4.0.8)(react@18.3.1)(sswr@2.1.0(svelte@5.2.4))(svelte@5.2.4)(utf-8-validate@5.0.10)(vue@3.5.13(typescript@5.6.3))(whatwg-url@14.1.0)
       '@anthropic-ai/sdk': 0.30.1
       '@types/uuid': 10.0.0
